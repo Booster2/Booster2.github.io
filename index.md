@@ -148,7 +148,7 @@ The `Lender` class has an invariant which restricts the number of members to les
 
 The `returnBook` method takes `b?`, an element of the `borrowed` set as argument. The `b?` argument must not be an element of the `borrowed'` set after the method completes. 
 
-The `:` operator can be read as "included-in", `/:` can be read as "excluded-from". The `?` identifies the `b` as an argument of the method. The post-state of the `borrowed` set is indicated by the prime symbol `'`.
+The `:` operator can be read as "element of", `/:` can be read as "not an element of". The `?` identifies the `b` as an argument of the method. The post-state of the `borrowed` set is indicated by the prime symbol `'`.
 
 
 
