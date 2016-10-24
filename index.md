@@ -1,30 +1,36 @@
 ---
 layout: home
+title: Booster2
 ---
 
-![](figs/booster-rocket.png)
 
-## What is Booster?
+<div style="text-align:center;margin:0 10px 10px 0" markdown="1">
+![](figs/booster-rocket.png){:width="200px"}
+</div>
 
-Lorum ipsum
+## What is Booster2?
+
+B Object Oriented STate-based Refinement or Booster is a notation and supporting tool for converting system specifications into online information systems. This implementation, Booster2, uses revised underlying architecture. The revised tool generates standard SQL schemas and stored procedures, and is defined using the Spoofax language workbench. This is in contrast with the original implementation which created Abstract Machines for the B-Toolkit and resulted in C code with an in-memory database.
+
+Booster2 is designed for information systems where the specification is expected to evolve in response to changing requirements. In typical development, requirements changes after software delivery involve costly and lengthy redesign processes. Changes to specification are reflected in new generated implementation. Booster uses a standard entity notation for classes and attributes. Specifications are created with invariants, and method specified as pre- and post- conditions. The tool generates database schemas, stored procedures, an API and a user interface from a high-level system specification.
 
 ## Booster Notation
 
-dolor sit amet
+
 
 ## Screenshots
 
-![The Booster Tool](figs/booster-tool.png)
+![The Booster Tool](figs/booster-tool.png){:width="300px"}
 
-![A Generated Script (In mysql workbench)](figs/booster-generated-db-script.png)
+![A Generated Script (In mysql workbench)](figs/booster-generated-db-script.png){:width="300px"}
 
-![The login for a generated system](figs/booster-system-login-window.png)
+![The login for a generated system](figs/booster-system-login-window.png){:width="300px"}
 
-![The main Booster interface](figs/booster-system-main-interface.png)
+![The main Booster interface](figs/booster-system-main-interface.png){:width="300px"}
 
-![The Booster Object viewer](figs/booster-object-view.png)
+![The Booster Object viewer](figs/booster-object-view.png){:width="300px"}
 
-![A Booster generated edit method](figs/booster-generated-method.png)
+![A Booster generated edit method](figs/booster-generated-method.png){:width="300px"}
 
 ## Install Instructions
 
