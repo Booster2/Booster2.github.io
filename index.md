@@ -16,10 +16,10 @@ Booster2 is designed for information systems where the specification is expected
 
 ## Booster Notation
 
-Booster files use the `boo2` file extension. Let's start with this example application for a Library system.
+Booster files use the `boo2` file extension. Lets start with this example application for a Library system.
 
-```java
-system Library
+```
+ system Library
 
   class Book {
     attributes
@@ -61,7 +61,7 @@ system Library
 }
 ```
 
-Let's walk though this specification.
+Lets walk though this specification.
 
 #### Systems
 ```system Library``` 
@@ -173,10 +173,14 @@ The `:` operator can be read as "element of", `/:` can be read as "not an elemen
 - Install Docker
 - Clone the Booster Docker repository
 - Copy a Booster2 specification into files/
-- build the Docker image
-`docker build . -t `whoami`/booster2:proto`
-- run the docker image
-`docker run -p 80:8080  -v `pwd`/files:/files `whoami`/booster2:proto myboosterspec.boo2`
+- build the Docker image 
+
+``docker build . -t `whoami`/booster2:proto``
+
+- run the docker image 
+
+``docker run -p 80:8080  -v `pwd`/files:/files `whoami`/booster2:proto myboosterspec.boo2``
+
 - (optional) copy a database populate script into files/
 - navigate to [http://localhost:80/gwi](http://localhost:80/gwi) login to browse your data
 - login and password are set to the system name
