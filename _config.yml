@@ -1,5 +1,4 @@
-server_port:  5001
-auto: true
+port:  5001
 sitename: Booster2
 repo: "https://github.com/Booster2/Booster2"
 wiki: "https://github.com/Booster2/Booster2/wiki"
