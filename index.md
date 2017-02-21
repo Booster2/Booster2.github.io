@@ -1,6 +1,6 @@
 ---
-layout: home
 title: Booster2
+layout: home
 ---
 
 
